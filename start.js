@@ -7,7 +7,7 @@ const Endpoints = require('./endpoints');
 const app = express();
 
 const Application = module.exports = function(){
-    this.mongoose = mongoose.createConnection('mongodb://haidar:Passw0rd@localhost:27017/moelleDB', {
+    this.mongoose = mongoose.createConnection('mongodb+srv://username:Passw0rd@moelle.rk7oc.mongodb.net/moelle?retryWrites=true&w=majority', {
         useNewUrlParser: true,
         useCreateIndex: true,
         useFindAndModify: false,
