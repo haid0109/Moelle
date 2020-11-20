@@ -32,7 +32,7 @@ app.use(function (req, res, next) {
     next();
 });
 app.use(express.json());
-app.listen(2020, async () => {
+app.listen(process.env.PORT || 2020, async () => {
     const application = new Application();
     await application.initialize();
     await application.start();
