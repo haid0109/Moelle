@@ -10,23 +10,23 @@ module.exports = function(connection){
                 required: true,
             },
             windSpeed: {
-                type: String,
+                type: Number,
                 required: true
             },
             rotations: {
-                type: String,
+                type: Number,
                 required: true
             },
             windDirection: {
-                type: String,
+                type: Number,
                 required: true
             },
             shaking: {
-                type: String,
+                type: Number,
                 required: true
             },
             powerOutput: {
-                type: String,
+                type: Number,
                 required: true
             }
         },
